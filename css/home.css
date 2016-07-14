@@ -255,9 +255,11 @@ nav{
 .nav-all-menu{
 	position: absolute;
 	width: 17.5rem;
+	height: 38.8rem;
     border-left: 1px solid #b61d1d;   
     border-bottom: 1px solid #b61d1d;
     background: #c81623;
+    overflow: hidden;
 }
 .nav-all-menu a{
 	color: #fff;
@@ -619,7 +621,7 @@ form.lifeservice-form1 li input[type="submit"]{
 	margin:1rem 0;
 }
 .clock-box{
-    width: 17.5%;
+    width: 17.5rem;
     height: 12.5rem;
     background: url(../images/homebg.png) no-repeat 0 -12rem;
 }
@@ -697,7 +699,7 @@ form.lifeservice-form1 li input[type="submit"]{
 }
 .today-recommend{
 	position: relative;
-    width: 82.5%;
+    width: 84rem;
     height: 13.7rem;
     overflow: hidden;
 }
@@ -763,7 +765,6 @@ form.lifeservice-form1 li input[type="submit"]{
 }
 .guessyou-content li{
 	flex: 1;
-	width: 16.75rem;
 	text-align: center;
 	padding: 0.8rem 2rem;
 }
