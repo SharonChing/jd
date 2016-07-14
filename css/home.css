@@ -40,7 +40,7 @@ li{
 	overflow: hidden;
 }
 .header-box,.search-box,.nav-box,.focus-box,.todays,.guessyou,.quality-life{
-	padding: 0 5.1rem;
+	padding: 0 8.7rem;
 	min-width: 117rem;
 }
 .header-box{
@@ -619,7 +619,7 @@ form.lifeservice-form1 li input[type="submit"]{
 	margin:1rem 0;
 }
 .clock-box{
-    width: 17.5rem;
+    width: 17.5%;
     height: 12.5rem;
     background: url(../images/homebg.png) no-repeat 0 -12rem;
 }
@@ -697,7 +697,7 @@ form.lifeservice-form1 li input[type="submit"]{
 }
 .today-recommend{
 	position: relative;
-    width: 89.5rem;
+    width: 82.5%;
     height: 13.7rem;
     overflow: hidden;
 }
@@ -814,9 +814,7 @@ form.lifeservice-form1 li input[type="submit"]{
 	background: #f7f7f7;
 }
 .quality-col:last-child{
-	border-right{
-		border:none;
-	}
+	border-right:none;
 }
 .quality-col a{
 	position: relative;
@@ -825,10 +823,10 @@ form.lifeservice-form1 li input[type="submit"]{
 	left: 4rem;
 	top:10rem;
 }
-.quality-col a:nth-child(2){
-	border-right:1px solid #dedede;
+.col-small:last-child{
+	border-left:1px solid #dedede;
 }
-.quality-col a:nth-child(2),.quality-col a:nth-child(3){
+.col-small{
 	width: 50%;
     float: left;
     border-top: 1px solid #dedede;
@@ -838,19 +836,15 @@ form.lifeservice-form1 li input[type="submit"]{
 	left: 1rem;
 	top:4rem;
 }
-.quality-col2{
-	width: 21%;
-	border-right: 1px solid #dedede;
+.quality-col:last-child{
+	padding: 0.6rem;
 }
-.quality-col3{
-	width: 31%;
-	background: #efefef;
-	border-right: 1px solid #dedede;
+.quality-col:last-child a{
+	border-bottom: 1px dashed #dedede;
 }
-.quality-col4{
-	width: 17%;
+.quality-col:last-child a:nth-child(2n){
+	border-left: 1px dashed #dedede;
 }
-
 
 
 
