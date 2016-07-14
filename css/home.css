@@ -790,7 +790,8 @@ form.lifeservice-form1 li input[type="submit"]{
 .quality-content{
 	display: flex;
 	border: 1px solid #dedede;
-	height: 35rem;
+    height: 34.8rem;
+    overflow: hidden;
 
 }
 .quality-content h5{
@@ -841,6 +842,11 @@ form.lifeservice-form1 li input[type="submit"]{
 }
 .quality-col:last-child a{
 	border-bottom: 1px dashed #dedede;
+	width: 5.9rem;
+    height: 4.9rem;
+    overflow: hidden;
+    float: left;
+
 }
 .quality-col:last-child a:nth-child(2n){
 	border-left: 1px dashed #dedede;
